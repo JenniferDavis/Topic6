@@ -33,6 +33,15 @@
  * +setWidth(width: double): void
  * +getHeight(): double
  * +setHeight(height: double): void
+ * 
+ * Class: Octagon
+ * -side: double
+ * +Octagon()
+ * +Octagon(side: double)
+ * +Octagon(side: double,color: string, filled: boolean)
+ * +getSide(): double
+ * +setSide(side: double): void
+ * 
  */
 
 public abstract class GeometricObject 
